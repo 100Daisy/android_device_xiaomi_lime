@@ -1,7 +1,7 @@
-# android_device_xiaomi_ginkgo
-For building TWRP for Xiaomi Redmi Note 8
+# android_device_xiaomi_lime
+For building TWRP for Xiaomi Redmi 9T
 
-TWRP device tree for Xiaomi Redmi Note 8
+TWRP device tree for Xiaomi Redmi 9T
 
 ## Features
 
@@ -32,21 +32,21 @@ repo sync
 Then add these projects to .repo/manifest.xml:
 
 ```xml
-<project path="device/xiaomi/ginkgo" name="mauronofrio/android_device_xiaomi_ginkgo" remote="github" revision="android-9.0" />
+<project path="device/xiaomi/lime" name="100Daisy/android_device_xiaomi_lime" remote="github" revision="android-9.0" />
 ```
 
 Finally execute these:
 
 ```
 . build/envsetup.sh
-lunch omni_ginkgo-eng
+lunch omni_lime-eng
 mka recoveryimage ALLOW_MISSING_DEPENDENCIES=true # Only if you use minimal twrp tree.
 ```
 
 To test it:
 
 ```
-fastboot boot out/target/product/ginkgo/recovery.img
+fastboot boot out/target/product/lime/recovery.img
 ```
 
 ## Other Sources
@@ -55,4 +55,4 @@ Using precompiled stock kernel.
 
 ## Thanks
 
-- Thanks to @PeterCxy for the commits and the base: https://github.com/PeterCxy/android_device_xiaomi_violet-twrp
+- Thanks to mauronofrio for the commits and the base: https://github.com/mauronofrio/android_device_xiaomi_ginkgo

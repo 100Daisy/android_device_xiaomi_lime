@@ -15,7 +15,7 @@
 #
 
 # Release name
-PRODUCT_RELEASE_NAME := ginkgo
+PRODUCT_RELEASE_NAME := lime
 
 $(call inherit-product, build/target/product/embedded.mk)
 
@@ -23,10 +23,10 @@ $(call inherit-product, build/target/product/embedded.mk)
 $(call inherit-product, vendor/omni/config/common.mk)
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := ginkgo
-PRODUCT_NAME := omni_ginkgo
+PRODUCT_DEVICE := lime
+PRODUCT_NAME := omni_lime
 PRODUCT_BRAND := Xiaomi
-PRODUCT_MODEL := Xiaomi Redmi Note 8
+PRODUCT_MODEL := Xiaomi Redmi 9T
 PRODUCT_MANUFACTURER := Xiaomi
 
 # HACK: Set vendor patch level

@@ -50,14 +50,7 @@ void vendor_load_properties() {
     property_set("ro.build.date.utc", "1546335651");
     std::string device_region = android::base::GetProperty("ro.boot.hwc", "");
     std::string device_hwversion = android::base::GetProperty("ro.boot.hwversion", "");
-    if (device_region == "Global_B" && (device_hwversion == "18.39.0" || device_hwversion == "19.39.0"))
-    {
-        load_properties("willow");
-    }
-    else
-    {
-        load_properties("ginkgo");
-    }
+    load_properties("lime");
 }
 
 }  // namespace init
