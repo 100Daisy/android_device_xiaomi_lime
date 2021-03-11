@@ -56,3 +56,5 @@ Using precompiled stock kernel.
 ## Thanks
 
 - Thanks to mauronofrio for the commits and the base: https://github.com/mauronofrio/android_device_xiaomi_ginkgo
+
+[![Build Status](https://cloud.drone.io/api/badges/100Daisy/android_device_xiaomi_lime/status.svg)](https://cloud.drone.io/100Daisy/android_device_xiaomi_lime)
