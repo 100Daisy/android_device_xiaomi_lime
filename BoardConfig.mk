@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/xiaomi/ginkgo
+DEVICE_PATH := device/xiaomi/lime
 
 # Architecture
 TARGET_ARCH := arm64
@@ -94,8 +94,8 @@ BOARD_VENDORIMAGE_FILE_SYSTEM_TYPE := ext4
 TARGET_COPY_OUT_VENDOR := vendor
 
 #Init
-TARGET_INIT_VENDOR_LIB := libinit_ginkgo
-TARGET_RECOVERY_DEVICE_MODULES := libinit_ginkgo
+TARGET_INIT_VENDOR_LIB := libinit_lime
+TARGET_RECOVERY_DEVICE_MODULES := libinit_lime
 TARGET_PLATFORM_DEVICE_BASE := /devices/soc/
 
 # Recovery
